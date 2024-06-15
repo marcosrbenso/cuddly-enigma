@@ -19,6 +19,31 @@ Os dados de entrada utilizados para o cálculo do indicador de resiliência híd
 - **Dados ambientais**: Informações do MapBiomas sobre as áreas de cobertura florestal. Fonte: [https://brasil.mapbiomas.org/en/](https://brasil.mapbiomas.org/en/)
 - **Dados sobre desastres**: Informações sobre áreas de risco de desastres geo-hidrológicos do Centro Nacional de Monitoramento e Alertas de Desastres Naturais (Cemaden/MCTI). Fonte: [https://www.gov.br/cemaden/pt-br](https://www.gov.br/cemaden/pt-br).
 
+  ### Indicador de Resiliência Hídrica, Educação e Escolas
+
+#### Desastres (BATER & Cemaden)
+
+- **Áreas de risco (risco - km²)**: Áreas de risco monitoradas pelo Cemaden.
+- **Municípios monitorados pelo Cemaden (monitorado - binário)**: Indicador binário que identifica se o município é monitorado pelo Cemaden.
+- **Número de estações hidrológicas de monitoramento de risco (estacoes - contagem)**: Contagem do número de estações hidrológicas de monitoramento de risco em cada região.
+
+#### Escolas (INEP - 2022)
+
+- **Número de escolas (escolas - contagem)**: Contagem do número de escolas.
+- **Número de alunos (alunos - contagem)**: Contagem do número de alunos matriculados.
+- **Número de professores (docentes - contagem)**: Contagem do número de professores.
+
+#### Ambiental (MapBiomas - 2022)
+
+- **Área florestada e não antropizada (floresta - km²)**: Área de cobertura florestal não modificada por atividade humana.
+
+#### Resiliência (ISH - ANA 2017)
+
+- **Volume Potencial por Ottobacia (S1_ivv_nu - hm³/km²)**: Volume potencial de água por unidade de área.
+- **Adimensional (S2_ivv_nu - Razão Q95 / QMLT)**: Razão entre o fluxo de água disponível 95% do tempo (Q95) e o fluxo médio de longo termo (QMLT).
+- **Potencial de Armazenamento Subterrâneo (S3_ivv_classe - categórico)**: Classificação categórica do potencial de armazenamento subterrâneo.
+- **Variabilidade Pluviométrica - Adimensional (S4_ivv_nu - % CV da chuva anual)**: Coeficiente de variação percentual da chuva anual, indicando a variabilidade pluviométrica.
+
 
 ## Aplicativo Shiny
 
