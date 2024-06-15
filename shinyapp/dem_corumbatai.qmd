@@ -1,0 +1,51 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis version="3.28.11-Firenze">
+  <identifier>SB_LL_sirgas2000</identifier>
+  <parentidentifier></parentidentifier>
+  <language>POR</language>
+  <type>dataset</type>
+  <title>SB_LL_sirgas2000</title>
+  <abstract>As sub-bacias hidrográficas do Estado de São Paulo foram delimitadas com base na rede de drenagem extraída do Modelo Digital de Elevação (MDE) desenvolvido a partir de curvas de nível das cartas 1:50.000 do Instituto Brasileiro de Geografia e Estatística (IBGE), Instituto Geográfico e Geológico (IGG) e Departamento de Serviços Geográficos do Exército, vetorizadas no projeto GISAT. 
+Sistema de Coordenadas Geográficas
+Datum: SIRGAS 2000
+
+Arquivo shapefile das sub-bacias do Estado de São Paulo delimitadas com base na rede de drenagem extraída do Modelo Digital de Elevação (MDE).</abstract>
+  <keywords vocabulary="Search keys">
+    <keyword>Sub-bacias hidrográficas do Estado de São Paulo</keyword>
+  </keywords>
+  <contact>
+    <name></name>
+    <organization></organization>
+    <position></position>
+    <voice></voice>
+    <fax></fax>
+    <email></email>
+    <role></role>
+  </contact>
+  <links/>
+  <fees></fees>
+  <rights>SUB-BACIAS HIDROGRÁFICAS DO ESTADO DE SÃO PAULO – COORDENADORIA DE PLANEJAMENTO AMBIENTAL, SECRETARIA DO MEIO AMBIENTE DO ESTADO DE SÃO PAULO, 2013.</rights>
+  <encoding></encoding>
+  <crs>
+    <spatialrefsys nativeFormat="Wkt">
+      <wkt>GEOGCRS["SIRGAS 2000",DATUM["Sistema de Referencia Geocentrico para las AmericaS 2000",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["Horizontal component of 3D system."],AREA["Latin America - Central America and South America - onshore and offshore. Brazil - onshore and offshore."],BBOX[-59.87,-122.19,32.72,-25.28]],ID["EPSG",4674]]</wkt>
+      <proj4>+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs</proj4>
+      <srsid>3517</srsid>
+      <srid>4674</srid>
+      <authid>EPSG:4674</authid>
+      <description>SIRGAS 2000</description>
+      <projectionacronym>longlat</projectionacronym>
+      <ellipsoidacronym>EPSG:7019</ellipsoidacronym>
+      <geographicflag>true</geographicflag>
+    </spatialrefsys>
+  </crs>
+  <extent>
+    <spatial dimensions="2" minx="-53.10486800000000329" maxy="-19.78044699999999878" minz="0" miny="-25.30827999999999989" crs="EPSG:4674" maxx="-44.16339800000000082" maxz="0"/>
+    <temporal>
+      <period>
+        <start></start>
+        <end></end>
+      </period>
+    </temporal>
+  </extent>
+</qgis>
