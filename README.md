@@ -47,10 +47,6 @@ Os dados de entrada utilizados para o cálculo do indicador de resiliência híd
 
 ## Aplicativo Shiny
 
-Criamos uma aplicação interativa utilizando o pacote **shiny** para permitir que os usuários explorem os dados e os resultados do indicador de resiliência hídrica. O aplicativo possui as seguintes funcionalidades:
+Criamos uma aplicação interativa utilizando o pacote **shiny** para permitir que os usuários explorem os dados e os resultados do indicador de resiliência hídrica. O aplicativo ainda está em fase de desenvolvimento, portanto, está apenas disponível para ser baixado e rodar localmente. Em breve terá uma versão para web.
 
-- **Visualização de mapas**: Mapas interativos que mostram a distribuição da resiliência hídrica nas escolas, permitindo que os usuários explorem diferentes regiões e identifiquem áreas de maior ou menor resiliência.
-- **Filtros interativos**: Ferramentas que permitem aos usuários filtrar os dados por diferentes critérios, como localização geográfica, tipo de escola, entre outros.
-- **Gráficos dinâmicos**: Gráficos que mostram a relação entre diferentes variáveis e o indicador de resiliência hídrica, ajudando na interpretação dos dados.
-- **Relatórios personalizados**: Funcionalidade para gerar relatórios personalizados com base nos filtros e visualizações selecionadas, facilitando a comunicação dos resultados.
 
